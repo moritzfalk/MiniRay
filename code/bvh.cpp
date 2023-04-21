@@ -2,7 +2,7 @@
 /*
 NOTE(moritz): 
 
-This bvh code is loosely based on the corresponding chaper in "Physically Based Rendering: From Theory To Implementation" - 3rd edition
+This bvh code is loosely based on the corresponding chapter in "Physically Based Rendering: From Theory To Implementation" - 3rd edition
 
 If I were to do this again, I would probably construct the bvh in local space of the mesh 
 and do it offline (instead of once at startup everytime) and save that to a custom mesh file format.
